@@ -1,0 +1,30 @@
+{
+  "name": "JATE",
+  "version": "1.0.0",
+  "description": "Just Another Text Editor is a progressive web application that allows you to write notes and code snippets with or without an internet connection.",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "build": "webpack --mode production",
+    "install": "cd client && npm install",
+    "client": "npm start --prefix client"
+  },
+  "keywords": ["text-editor", "pwa", "offline"],
+  "author": "Laith",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4",
+    "webpack": "^5.51.1", // Ensure you have webpack and other necessary webpack-related packages here
+    // ... other devDependencies related to webpack and your build process
+  },
+  "engines": {
+    "node": "18.18.2"
+  }
+}
+

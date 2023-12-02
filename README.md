@@ -32,4 +32,4 @@ To build the app, run npm run build inside of client directory\
 
 ## Demo
 
-![Demo](Assets/00-demo.gif)
+![Demo](00-demo.gif)
