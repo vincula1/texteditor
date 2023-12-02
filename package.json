@@ -20,8 +20,7 @@
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4",
-    "webpack": "^5.51.1", // Ensure you have webpack and other necessary webpack-related packages here
-    // ... other devDependencies related to webpack and your build process
+    "webpack": "^5.51.1"
   },
   "engines": {
     "node": "18.18.2"
