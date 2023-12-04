@@ -9,6 +9,7 @@
     "server": "nodemon server.js",
     "build": "cd client && webpack --mode production",
     "install": "cd client && npm install",
+    "postinstall": "npm run build",
     "client": "npm start --prefix client"
   },
   "keywords": [
